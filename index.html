@@ -67,37 +67,38 @@
     border-color: rgba(255,255,255,0);
 }
 
-      @media (max-width: 425px) {
-        #mainmenu-area img {
-          width: 60%;
-            height: auto;
-            margin-bottom:-69px;
-  }
-            .navbar-brand {
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  #mainmenu-area img {
+    width: 60%;
+      height: auto;
+      margin-bottom:-69px;
+}
+      .navbar-brand {
 
-      margin-top: -40px;
+margin-top: -40px;
+    }
 
-  }
 
+      .img2 img {
+
+      margin: 50px 50px 0 0;
+          }
+            }
+
+    @media only screen and (min-width: 426px) and (max-width: 768px) {
+      .logo-bar {
+        display: hidden!important;
+    }
 
   .img2 img {
 
-  margin: 50px 50px 0 0;
+  margin: 50px 100px 0 0;
       }
         }
 
-        @media (max-width: 768px) {
-    .logo-bar {
-      display: hidden!important;
-  }
 
-.img2 img {
 
-margin: 50px 100px 0 0;
-    }
-          }
-
-      }
+      
 
 
   </style>
