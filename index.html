@@ -1,7 +1,15 @@
 <!doctype html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -11,48 +19,50 @@
     content="">
 
 
-  <meta name="author" content="ginjo.io">
+  <meta name="author" content="defiants.org">
 
   <title>Defiants - Your community partner</title>
 
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="57x57" href="fav.ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="fav.ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="fav.ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="fav.ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="fav.ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="fav.ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="fav.ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="fav.ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav.ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="fav.ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav.ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="fav.ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav.ico/favicon-16x16.png">
+  <link rel="manifest" href="fav.ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="fav.ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-  <!-- Animate Css -->
-  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
   <!-- Icon Font css -->
   <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
   <link rel="stylesheet" href="plugins/fonts/Pe-icon-7-stroke.css">
   <!-- Themify icon Css -->
   <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
-  <!-- Slick Carousel CSS -->
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
 
-  <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="57x57" href="fav.ico/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="fav.ico/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="fav.ico/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="fav.ico/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="fav.ico/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="fav.ico/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="fav.ico/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="fav.ico/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="fav.ico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="fav.ico/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="fav.ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="fav.ico/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="fav.ico/favicon-16x16.png">
-    <link rel="manifest" href="fav.ico/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="fav.ico/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
 
   <style media="screen">
-
+  html {
+      scroll-behavior: smooth !important;
+    }
 
   #head img {
     width: 300%;
@@ -101,23 +111,27 @@ margin-top: -40px;
 
 
 
-          html {
-              scroll-behavior: smooth !important;
-            }
-
-
   </style>
 
 </head>
 
 
-<body id="top-header">
+<!-- body _________________________________________________________________________________________________________________________________
+        _________________________________________________________________________________________________________________________________
+        _________________________________________________________________________________________________________________________________ -->
 
-<!-- LOADER TEMPLATE -->
-<div id="page-loader">
+
+<body id="page-top">
+
+
+  <!-- LOADER TEMPLATE -->
+
+  <div id="page-loader">
     <div class="loader-icon fa fa-spin colored-border"></div>
-</div>
-    <!-- /LOADER TEMPLATE -->
+  </div>
+
+
+  <!-- /LOADER TEMPLATE -->
 
 
     <div class="logo-bar d-none  d-lg-block bg-light" id="head">
@@ -158,506 +172,721 @@ margin-top: -40px;
         </div>
     </div>
 
-    <!-- NAVBAR
-    ================================================= -->
-    <div class="main-navigation" id="mainmenu-area">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable rounded-radius">
 
-                <a class="navbar-brand mr-auto d-lg-none d-block" href="">
+
+  <!--navigatie _________________________________________________________________________________________________________________________________
+          _________________________________________________________________________________________________________________________________
+          _________________________________________________________________________________________________________________________________ -->
+
+  <!-- Navigation -->
+  <div class="main-navigation menu-2" id="mainmenu-area">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable rounded-radius" id="mainNav">
+
+        <a class="navbar-brand mr-auto d-lg-none d-block" href="">
                       <img src="images/dlog2.png" alt="">
                 </a>
-                <!-- Toggler -->
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa fa-bars"></span>
-                </button>
+                                <span class="fa fa-bars"></span>
+                            </button>
 
-                <!-- Collapse -->
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <!-- Links -->
-                    <ul class="navbar-nav">
-                        <!--  <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Home
-                            </a>
+        <!--  <select onchange="location = this.value;" class="selectpicker" data-width="fit">
 
-                        </li>-->
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#service">About our service</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link js-scroll-trigger" href="#process">How we help</a>
-                        </li>
+    <option value="index.html">Change language</option>
 
+                      <option value="index2.html">English</option>
 
-                    </ul>
+          </select> -->
 
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#service">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#process">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
 
-                    <ul class="ml-lg-auto list-unstyled m-0">
-                        <li><a href="#" class="btn btn-white btn-circled">Get a quote</a></li>
-                    </ul>
-                </div> <!-- / .navbar-collapse -->
-            </nav>
-        </div> <!-- / .container -->
-    </div>
+          </ul>
+        </div>
 
-
-
-    <!-- HERO
-    ================================================== -->
-    <section class="banner-area py-7" id="head">
-        <!-- Content -->
-        <div class="container">
-            <div class="row  align-items-center">
-                <div class="col-md-12 col-lg-7 text-center text-lg-left">
-                    <div class="main-banner">
-                        <!-- Heading -->
-                        <h1 class="display-4 mb-4 font-weight-normal">
-                            A non-profit community accelerator and aggregator
-                        </h1>
-
-                        <!-- Subheading -->
-                        <p class="lead mb-4">
-                          Connecting DeFi startups and their supporters
-                        </p>
-
-                        <!-- Button -->
-                        <p class="mb-0">
-                            <a href="#" target="_blank" class="btn btn-primary btn-circled">
-                                Get in touch
-                            </a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-12 col-lg-5 ">
-                    <div class="banner-img-block">
-                        <img src="images/img1.png" alt="banner-img" class="img-fluid">
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section>
-
-
-      <section class="section bg-grey" id="service">
-        <div class="container">
-          <div class="row justify-content-center mb-5">
-            <div class="col-lg-7 pl-4 text-center">
-              <div class="service-heading">
-                <h2 style="font-size: 35px;">Your community partner</h2>
-
-<br>
-
-<p>We are a team of experienced community managers with a large portolio of unique skills that empower blockchain startups to live up to their full potential. We build reputations that resonate with the vision of the project, and resilient communities that will watch that vision come to life.</p>
-
-              </div>
-
-
-
-            </div>
-          </div>
-
-          <div class="row justify-content-center">
-            <div class="fix col-lg-4 col-md-4">
-              <div class="service-block media">
-                <div class="service-inner-content media-body">
-                  <h3>Empowering defiant startups</h3>
-
-                  <div class="row">
-                    <div class="col-12"> <br>
-
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto; " src="images/g398.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Engaged community moderation</p>
-  </div>
-</div> <br>
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g410.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Guerilla marketing</p>
-  </div>
-</div> <br>
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g422.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Growth hacking</p>
-  </div>
-</div> <br>
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;"  src="images/g434.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Content creation / eReputation</p>
-  </div>
-</div>
-
-
-                    </div>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="fix col-lg-4 col-md-4">
-              <div class="service-block media">
-
-                <div class="service-inner-content media-body">
-                  <h3>Vetted team of professionals</h3>
-                  <div class="row">
-                    <div class="col-12"> <br>
-
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g1562.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Fair compensation</p>
-  </div>
-</div> <br>
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g1570.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Incentivized performance</p>
-  </div>
-</div> <br>
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g1578.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Shared values</p>
-  </div>
-</div> <br>
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g1594.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Full KYC/verfication</p>
-  </div>
-</div>
-
-
-                    </div>
-
-                  </div>
-
-
-
-
-                </div>
-              </div>
-            </div>
-
-            <div class="fix col-lg-4 col-md-4">
-              <div class="service-block media ">
-                <div class="service-inner-content media-body">
-                  <h3>Non-profit matters</h3>
-                  <div class="row">
-                    <div class="col-12"> <br>
-
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g2596.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>People first</p>
-  </div>
-</div> <br>
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g2604.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Value driven, outcome focused</p>
-  </div>
-</div> <br>
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g2612.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Lean, agile, flexible</p>
-  </div>
-</div> <br>
-<div class="row">
-  <div class="col-4">
-    <img style="width: 70%;height: auto;" src="images/g2620.png" alt="">
-  </div>
-  <div class="col-8">
-    <p>Relentless improvement</p>
-  </div>
-</div>
-
-
-                    </div>
-
-                  </div>
-
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-            </section>
-
-<section class="section" id="process">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 style="font-size: 35px;">
-                            How we can help
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p>
-
-                        </p>
-
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-<div class="row">
-  <div class="col-lg-6 col-md-12">
-
-<h3>Interest</h3>
-<p>As thought leaders in DLT, we engage with DeFi followers, supporting a healthy relationship  between representatives of a startup and their supporters.
-</p>
-
-  <h3>Optics</h3>
-<p>Understanding the mindset of the various stakeholders and navigating a high-risk environment, we  focus resources where it matters most to maintain project reputations.
-</p>
-
-<h3>Safety </h3>
-<p>We are aware of the dangers exposed to retail investors. We therefore create a user-friendly  environment that is secure for both followers and the project team.
-</p>
-
+      </nav>
+    </div> <!-- / .container -->
   </div>
 
-  <div class="col-lg-6 col-md-12 text-right img2">
-    <img style="width: 70%;height: auto;" src="images/img2.png" alt="">
-  </div>
-</div>
 
-  <!-- Subheading ------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-    </section>
+  <!--landing _________________________________________________________________________________________________________________________________
+          _________________________________________________________________________________________________________________________________
 
 
-          <section class="section bg-grey" id="client">
-            <div class="container">
-              <div class="row justify-content-center mb-5">
-                <div class="col-lg-7 pl-4 text-center">
-                  <div class="service-heading">
-                    <h2 style="font-size: 35px;">Our partners and clients</h2>
-
-    <br>
-            </div>
+          _________________________________________________________________________________________________________________________________ -->
 
 
+              <!-- HERO
+              ================================================== -->
+              <section class="banner-area py-7">
+                  <!-- Content -->
+                  <div class="container">
+                      <div class="row  align-items-center">
+                          <div class="col-md-12 col-lg-7 text-center text-lg-left">
+                              <div class="main-banner">
+                                  <!-- Heading -->
+                                  <h1 class="display-4 mb-4 font-weight-normal">
+                                      A non-profit community accelerator and aggregator
+                                  </h1>
 
-                </div>
-              </div>
+                                  <!-- Subheading -->
+                                  <p class="lead mb-4">
+                                    Connecting DeFi startups and their supporters
+                                  </p>
 
-              <div class="row justify-content-center">
-                <div class="fix col-lg-4 col-md-4 text-center">
-                  <div class="service-block media">
-                    <div class="service-inner-content media-body">
+                                  <!-- Button -->
+                                  <p class="mb-0">
+                                      <a href="#" target="_blank" class="btn btn-primary btn-circled">
+                                          Get in touch
+                                      </a>
+                                  </p>
+                              </div>
+                          </div>
 
-<img style="width: 100%;height: auto;" src="images/g954.png" alt="">
-                    </div>
-                  </div>
-                </div>
-
-
-                  <div class="fix col-lg-4 col-md-4 text-center">
-                    <div class="service-block media">
-                      <div class="service-inner-content media-body">
-
-                    <img style="width: 70%;height: auto;" src="images/g985.png" alt="">
-
-                      </div>
-                    </div>
-                  </div>
+                          <div class="col-md-12 col-lg-5 ">
+                              <div class="banner-img-block">
+                                  <img src="images/img1.png" alt="banner-img" class="img-fluid">
+                              </div>
+                          </div>
+                      </div> <!-- / .row -->
+                  </div> <!-- / .container -->
+              </section>
 
 
-                    <div class="fix col-lg-4 col-md-4 text-center">
-                      <div class="service-block media">
-                        <div class="service-inner-content media-body">
-      <img style="width: 50%;height: auto;" src="images/g963.png" alt="">
+                <section class="section bg-grey" id="service">
+                  <div class="container">
+                    <div class="row justify-content-center mb-5">
+                      <div class="col-lg-7 pl-4 text-center">
+                        <div class="service-heading">
+                          <h2 style="font-size: 35px;">Your community partner</h2>
 
+          <br>
+
+          <p>We are a team of experienced community managers with a large portolio of unique skills that empower blockchain startups to live up to their full potential. We build reputations that resonate with the vision of the project, and resilient communities that will watch that vision come to life.</p>
 
                         </div>
+
+
+
                       </div>
                     </div>
-</div>
 
-                </section>
+                    <div class="row justify-content-center">
+                      <div class="fix col-lg-4 col-md-4">
+                        <div class="service-block media">
+                          <div class="service-inner-content media-body">
+                            <h3>Empowering defiant startups</h3>
 
- <footer class="section " id="footer">
-        <div class="overlay footer-overlay"></div>
-        <!--Content -->
-        <div class="container">
-            <div class="row justify-content-start">
-                <div class="col-lg-4 col-sm-12">
-                    <div class="footer-widget">
-                        <!-- Brand -->
-                        <a href="#" class="footer-brand text-white">
-                              <img style="width: 70%;height: auto;" src="images/dlog3.png" alt="">
-                        </a>
-                        <p>We build reputations that resonate with the vision of the project, and resilient communities that will watch that vision come to life.</p>
+                            <div class="row">
+                              <div class="col-12"> <br>
+
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto; " src="images/g398.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Engaged community moderation</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g410.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Guerilla marketing</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g422.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Growth hacking</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;"  src="images/g434.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Content creation / eReputation</p>
+            </div>
+          </div>
+
+
+                              </div>
+
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="fix col-lg-4 col-md-4">
+                        <div class="service-block media">
+
+                          <div class="service-inner-content media-body">
+                            <h3>Vetted team of professionals</h3>
+                            <div class="row">
+                              <div class="col-12"> <br>
+
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g1562.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Fair compensation</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g1570.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Incentivized performance</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g1578.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Shared values</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g1594.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Full KYC/verfication</p>
+            </div>
+          </div>
+
+
+                              </div>
+
+                            </div>
+
+
+
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="fix col-lg-4 col-md-4">
+                        <div class="service-block media ">
+                          <div class="service-inner-content media-body">
+                            <h3>Non-profit matters</h3>
+                            <div class="row">
+                              <div class="col-12"> <br>
+
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g2596.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>People first</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g2604.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Value driven, outcome focused</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g2612.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Lean, agile, flexible</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-4">
+              <img style="width: 70%;height: auto;" src="images/g2620.png" alt="">
+            </div>
+            <div class="col-8">
+              <p>Relentless improvement</p>
+            </div>
+          </div>
+
+
+                              </div>
+
+                            </div>
+
+
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
-                </div>
 
-                <div class="col-lg-3 ml-lg-auto col-sm-12">
-                    <div class="footer-widget">
-                        <h3>Account</h3>
-                        <!-- Links -->
-                        <ul class="footer-links ">
-                            <li>
-                                <a href="#">
-                                    Terms and conditions
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Privacy policy
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Affiliate services
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Help and support
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Frequently Asked Question
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                      </section>
 
+          <section class="section" id="process">
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-md-8 col-lg-6 text-center">
+                              <div class="section-heading">
+                                  <!-- Heading -->
+                                  <h2 style="font-size: 35px;">
+                                      How we can help
+                                  </h2>
 
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-widget">
-                        <h3>About</h3>
-                        <!-- Links -->
-                        <ul class="footer-links ">
-                            <li>
-                                <a href="#">
-                                    Services
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    About Us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Pricing
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Products Shop
-                                </a>
-                            </li>
+                                  <!-- Subheading -->
+                                  <p>
 
-                            <li>
-                                <a href="#">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                                  </p>
 
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-widget">
-                        <h3>Socials</h3>
-                        <!-- Links -->
-                        <ul class="list-unstyled footer-links">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
-                            <li>
-                            <a href="#"><i class="fab fa-twitter"></i>Twitter
-                            </a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i>Pinterest
-                            </a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i>linkedin
-                            </a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i>YouTube
-                            </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
+                              </div>
+                          </div>
+                      </div> <!-- / .row -->
 
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
 
-            <div class="row text-right pt-5">
-                <div class="col-lg-12">
-                    <!-- Copyright -->
-                    <p class="footer-copy ">
-                        &copy; Copyright <span class="current-year">Defiants</span> All rights reserved.
-                    </p>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </footer>
+          <h3>Interest</h3>
+          <p>As thought leaders in DLT, we engage with DeFi followers, supporting a healthy relationship  between representatives of a startup and their supporters.
+          </p>
 
+            <h3>Optics</h3>
+          <p>Understanding the mindset of the various stakeholders and navigating a high-risk environment, we  focus resources where it matters most to maintain project reputations.
+          </p>
 
-    <!--  Page Scroll to Top  -->
+          <h3>Safety </h3>
+          <p>We are aware of the dangers exposed to retail investors. We therefore create a user-friendly  environment that is secure for both followers and the project team.
+          </p>
 
-    <a class="scroll-to-top js-scroll-trigger" href="#head">
-        <i class="fa fa-angle-up"></i>
-    </a>
+            </div>
+
+            <div class="col-lg-6 col-md-12 text-right img2">
+              <img style="width: 70%;height: auto;" src="images/img2.png" alt="">
+            </div>
+          </div>
+
+          </section>
+          <!-- contact ------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
 
 
 
+                            <section class="section bg-grey" id="contact">
+                              <div class="container">
 
-    <!--
-    Essential Scripts
-    =====================================-->
+                                <div class="row mb-4">
+                                      <div class="col-sm-12 col-md-6 col-lg-6">
+
+                          <div class="row">
+                            <div class="col-md-12">
 
 
-    <!-- Main jQuery -->
-    <script src="plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap 3.1 -->
-    <script src="plugins/bootstrap/js/popper.min.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Slick Slider -->
-    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <!-- Map Js -->
-    <script src="plugins/google-map/gmap3.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
 
-    <script src="js/form/contact.js"></script>
-    <script src="js/theme.js"></script>
+                              <div class="card">
+                                <div class="card-body">
 
-  </body>
-  </html>
+                                  <h5></h5>
+                                  <!-- Heading -->
+                                  <h2 class="section-title mb-2 ">
+                                  Get in touch <span class="font-weight-normal"></span>
+                                  </h2>
+
+                                  <!-- Subheading -->
+                                  <p class="mb-5 ">
+
+                                  </p>
+
+                                </div>
+
+                                <div class="col-md-12">
+                                  <div class="col-lg-12">
+                                    <!-- form message -->
+                                    <div class="row">
+                                      <div class="col-12">
+                                        <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                        Your messga has been send successfuly
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- end message -->
+                                    <!-- Contacts Form -->
+                                    <form action="https://formspree.io/xgenvvjn" method="POST" class="contact_form">
+                                      <div class="row">
+                                        <!-- Input -->
+                                        <div class=" col-md-6 col-lg-6 mb-6">
+                                          <div class="form-group">
+                                            <label class="h6 small d-block text-uppercase">
+                                              Name organisation
+                                              <span class="text-danger">*</span>
+                                            </label>
+
+                                            <div class="input-group">
+                                              <input class="form-control" name="name" id="name" required="" placeholder="" type="text">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!-- End Input -->
+
+                                        <!-- Input -->
+                                        <div class=" col-md-6 col-lg-6 mb-6">
+                                          <div class="form-group">
+                                            <label class="h6 small d-block text-uppercase">
+                                              E-mail
+                                              <span class="text-danger">*</span>
+                                            </label>
+
+                                            <div class="input-group ">
+                                              <input class="form-control" name="email" id="email" required="" placeholder="" type="email">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!-- End Input -->
+
+                                        <div class="w-100"></div>
+
+                                        <!-- Input -->
+                                        <div class=" col-md-6 col-lg-6 mb-6">
+                                          <div class="form-group">
+                                            <label class="h6 small d-block text-uppercase">
+                                              Subject
+                                              <span class="text-danger">*</span>
+                                            </label>
+
+                                            <div class="input-group">
+                                              <input class="form-control" name="subject" id="subject" required="" placeholder="" type="text">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!-- End Input -->
+
+                                        <!-- Input -->
+                                        <div class=" col-md-6 col-lg-6 mb-6">
+                                          <div class="form-group">
+                                            <label class="h6 small d-block text-uppercase">
+                                              Telegram handle
+                                              <span class="text-danger">*</span>
+                                            </label>
+
+                                            <div class="input-group ">
+                                              <input class="form-control" id="phone" name="phone" required="" placeholder="" type="text">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!-- End Input -->
+                                      </div>
+
+                                      <!-- Input -->
+                                      <div class="form-group mb-5">
+                                        <label class="h6 small d-block text-uppercase">
+                                          How can we help you?
+                                          <span class="text-danger">*</span>
+                                        </label>
+
+                                        <div class="input-group">
+                                          <textarea class="form-control" rows="4" name="message" id="message" required="" placeholder=""></textarea>
+                                        </div>
+                                      </div>
+                                      <!-- End Input -->
+
+                                      <div class="row">
+                                        <div class="col-6">
+
+                                          <div class="">
+                                            <input name="submit" type="submit" class="btn btn-primary" value="Send">
+
+                                            <p class="small pt-3"></p>
+                                          </div>
+                                        </div>
+
+                                      </div>
+                                    </form>
+                                    <!-- End Contacts Form -->
+                                  </div>
+
+                                </div>
+
+                                </div>
+                              </div>
+
+
+                          </div>
+
+                          </div>
+
+    <div class="col-sm-12  col-md-6 col-lg-6 text-right">
+
+      <img style="width: 70%;height: auto; margin-top: 100px;" src="images/tou.png" alt="">
+                                </div>
+
+                                </div>
+
+                                  <!-- END MAP   <div style="padding-top: 23px;" class="col-lg-6 col-md-6">
+                                         START MAP
+                                        <div id="map"></div> -->
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                              </div>
+                            </section>
+
+                            <section class="section" id="client">
+                              <div class="container">
+                                <div class="row justify-content-center mb-5">
+                                  <div class="col-lg-7 pl-4 text-center">
+                                    <div class="service-heading">
+                                      <h2 style="font-size: 35px;">Our partners and clients</h2>
+
+                      <br>
+                              </div>
+
+
+
+                                  </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                  <div class="fix col-lg-4 col-md-4 text-center">
+                                    <div class="service-block media">
+                                      <div class="service-inner-content media-body">
+
+                  <img style="width: 100%;height: auto;" src="images/g954.png" alt="">
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                                    <div class="fix col-lg-4 col-md-4 text-center">
+                                      <div class="service-block media">
+                                        <div class="service-inner-content media-body">
+
+                                      <img style="width: 70%;height: auto;" src="images/g985.png" alt="">
+
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+                                      <div class="fix col-lg-4 col-md-4 text-center">
+                                        <div class="service-block media">
+                                          <div class="service-inner-content media-body">
+                        <img style="width: 50%;height: auto;" src="images/g963.png" alt="">
+
+
+                                          </div>
+                                        </div>
+                                      </div>
+                  </div>
+
+                                  </section>
+
+                            <br> <br> <br>
+
+
+                              <!--Footer _________________________________________________________________________________________________________________________________
+                                      _________________________________________________________________________________________________________________________________ -->
+
+
+
+           <footer class="section " id="footer">
+                  <div class="overlay footer-overlay"></div>
+                  <!--Content -->
+                  <div class="container">
+                      <div class="row justify-content-start">
+                          <div class="col-lg-4 col-sm-12">
+                              <div class="footer-widget">
+                                  <!-- Brand -->
+                                  <a href="#" class="footer-brand text-white">
+                                        <img style="width: 70%;height: auto;" src="images/dlog3.png" alt="">
+                                  </a>
+                                  <p>We build reputations that resonate with the vision of the project, and resilient communities that will watch that vision come to life.</p>
+                              </div>
+                          </div>
+
+                          <div class="col-lg-3 ml-lg-auto col-sm-12">
+                              <div class="footer-widget">
+                                  <h3>Account</h3>
+                                  <!-- Links -->
+                                  <ul class="footer-links ">
+                                      <li>
+                                          <a href="#">
+                                              Terms and conditions
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              Privacy policy
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              Affiliate services
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              Help and support
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              Frequently Asked Question
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+
+
+                          <div class="col-lg-2 col-sm-6">
+                              <div class="footer-widget">
+                                  <h3>About</h3>
+                                  <!-- Links -->
+                                  <ul class="footer-links ">
+                                      <li>
+                                          <a href="#">
+                                              Services
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              About Us
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              Pricing
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              Products Shop
+                                          </a>
+                                      </li>
+
+                                      <li>
+                                          <a href="#">
+                                              Contact
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+
+                          <div class="col-lg-2 col-sm-6">
+                              <div class="footer-widget">
+                                  <h3>Socials</h3>
+                                  <!-- Links -->
+                                  <ul class="list-unstyled footer-links">
+                                      <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                                      <li>
+                                      <a href="#"><i class="fab fa-twitter"></i>Twitter
+                                      </a></li>
+                                      <li><a href="#"><i class="fab fa-pinterest-p"></i>Pinterest
+                                      </a></li>
+                                      <li><a href="#"><i class="fab fa-linkedin"></i>linkedin
+                                      </a></li>
+                                      <li><a href="#"><i class="fab fa-youtube"></i>YouTube
+                                      </a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div> <!-- / .row -->
+
+
+                      <div class="row text-right pt-5">
+                          <div class="col-lg-12">
+                              <!-- Copyright -->
+                              <p class="footer-copy ">
+                                  &copy; Copyright <span class="current-year">Defiants</span> All rights reserved.
+                              </p>
+                          </div>
+                      </div> <!-- / .row -->
+                  </div> <!-- / .container -->
+              </footer>
+
+
+
+
+  <!--  Page Scroll to Top  -->
+
+  <a class="scroll-to-top js-scroll-trigger hover" href="#page-top">
+    <i class="fa fa-angle-up"></i>
+  </a>
+
+  <!-- Main jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 3.1 -->
+  <script src="plugins/bootstrap/js/popper.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <!-- Map Js -->
+  <script src="plugins/google-map/gmap3.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoep2bcNfMNzVS8cKyx04yoWvtqdnsBxg&callback=initMap"></script>
+
+  <script src="js/form/contact.js"></script>
+  <script src="js/theme.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+
+
+  <!-- Custom hamburger close on click -->
+  <script>
+    $(document).on('click', function() {
+      $('.collapse').collapse('hide');
+    })
+  </script>
+
+  <!-- cookies modal -->
+  <script>
+    $(document).ready(function() {
+      $('#modalCookie1').modal('show');
+    });
+  </script>
+
+  <!-- card collapse on hover -->
+
+
+
+  <script>
+    $(document).ready(function() {
+      $('body').bootstrapMaterialDesign();
+      document.getElementById("btnLogin").click();
+      setTimeout(function() {
+        document.getElementById("btnLogin").click();
+      }, 2000);
+
+    });
+  </script>
+
+
+
+</body>
+
+</html>
