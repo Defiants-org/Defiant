@@ -661,5 +661,13 @@ margin-top: -40px;
     <!-- Custom JavaScript for this theme -->
 <script src="js/scrolling-nav.js"></script>
 
+
+<!-- Custom hamburger close on click -->
+<script>
+  $(document).on('click', function() {
+    $('.collapse').collapse('hide');
+  })
+</script>
+
   </body>
   </html>
