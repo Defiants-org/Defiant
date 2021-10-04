@@ -27,6 +27,7 @@ Version      : 1.0
 * 12.FOOTER CSS STYLE
 * ----------------------------------------
 */
+
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900");
 html {
   font-family: sans-serif;
@@ -167,8 +168,60 @@ img {
 .bg-grey {
   background: #F4F7FC;
 }
+/*-------------------
+CUSTOM
+----------------=----*/
+
+
+@media (max-width: 480px) {
+.wm  {
+width: 80%;
+height: auto;
+margin-top: 15px;
+padding-bottom: 45px;
+margin-right: 20px;
+}
+
+
+  }
 
 /*-------------------
+
+
+.ko {
+    width: 65%;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+.sw {
+    width: 80%;
+    height: auto;
+    margin-bottom: 65px;
+}
+
+.sk {
+    width: 80%;
+    height: auto;
+    margin-top: -40px;
+    margin-bottom: 65px;
+}
+
+.am {
+    width: 80%;
+    height: auto;
+    margin-top: -65px;
+    margin-bottom: 65px;
+}
+
+.ke {
+    width: 110%;
+    height: auto;
+    margin-top: -60px;
+    margin-bottom: 65px;
+}
+
+
   BUTTONS STYLE
 ----------------=----*/
 .btn {

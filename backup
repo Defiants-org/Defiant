@@ -1,3 +1,220 @@
+
+
+      <div class="row justify-content-center">
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+
+              <a href="https://allianceblock.io/"> <img style="width: 100%;height: auto;auto;margin-top: 25px;" src="images/g954.png" alt=""></a>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+
+              <a href="https://www.bosonprotocol.io/"> <img style="width: 70%;height: auto;auto;margin-top: 25px;" src="images/boson.png" alt=""></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://usetech.com/unique/"> <img style="width: 70%;height: auto;margin-top: 25px ;" src="images/un.png" alt=""></a>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://fetch.ai/"> <img style="width: 75%;height: auto;margin-top: 30px;" src="images/fetch.png" alt=""></a>
+
+
+            </div>
+          </div>
+        </div>
+
+        <!--  <div class="fix col-lg-4 col-md-4 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <img style="width: 80%;height: auto;auto;margin-top: 32px;" src="images/b72.jpeg" alt="">
+
+
+            </div>
+          </div>
+        </div>-->
+      </div>
+      <div class="row justify-content-center">
+
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://outlierventures.io/"> <img style="width: 85%;height: auto;margin-top: 40px;" src="images/ov.png" alt=""></a>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://www.keytango.io/"> <img style="width: 85%;height: auto;margin-top: 10px;" src="images/keyt.png" alt=""></a>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://www.cudos.org/"> <img style="width: 85%;height: auto;margin-top: ;   margin-top: 24px;" src="images/cudo.png" alt=""></a>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://idexo.io/"> <img style="width: 60%;height: auto; margin-bottom: 10px; margin-top: 25px;" src="images/ido.png" alt=""></a>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://pantherprotocol.io/"> <img style="width: 70%;height: auto;margin-top: 5px;margin-right: 25px;margin-bottom: 55px;" src="images/pan.png" alt=""></a>
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://crucible.network/"> <img style="width: 90%;height: auto;margin-top: -0px ;margin-bottom: 25px;" src="images/cruc.png" alt=""></a>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://www.modadao.io/"> <img style="width: 80%;height: auto;margin-top: 15px ;margin-bottom: 25px;" src="images/moda.png" alt=""></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+              <a href="https://worldmobile.io/"> <img style=" width: 90%; height: auto; margin-top: 15px; padding-bottom: 65px; margin-right: 20px;" src="images/wmt.png" alt=""></a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+
+              <a href="https://bloxmove.com/"> <img style="    width: 80%;
+    height: auto;
+    margin-top: -30px;
+    margin-bottom: 65px;" src="images/blox.png" alt=""></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+
+              <a href="https://bitspawn.io/"> <img style="    width: 80%;
+    height: auto;
+    margin-top: -30px;
+    margin-bottom: 75px;" src="images/bits.png" alt=""></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+
+              <a href="https://koii.network/"> <img style="         width: 65%;
+    height: auto;
+    margin-top: -45px;
+    margin-bottom: 15px;" src="images/koii.png" alt=""></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+
+              <a href="https://swashapp.io/"> <img style="width: 80%;
+      height: auto;
+    margin-top: -45px;
+    margin-bottom: 65px;" src="images/sw.png" alt=""></a>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="row">
+
+        <div class="fix col-lg-3 col-md-3 text-center">
+          <div class="service-block media">
+            <div class="service-inner-content media-body">
+
+              <a href="https://www.skygrid.com/"> <img style="width: 80%;
+    height: auto;
+    margin-top: -60px;
+    margin-bottom: 65px;" src="images/sk.png" alt=""></a>
+
+            </div>
+          </div>
+        </div>
+
+--------------------------------------------------------------------------------
+
 <section id="landing">
   <div class="container">
 
